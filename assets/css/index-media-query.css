@@ -1,0 +1,139 @@
+@media only screen and (max-width: 1110px) {
+	.logo-container{
+		margin-top: 100px;
+	}
+	#clear-icon{
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 915px) {
+	.lg-sbox-container{
+		width: 600px;
+	}
+	.search-btn-container button{
+		padding: 15px;
+	}
+}
+
+@media only screen and (max-width: 750px){
+	.logo-container{
+		margin-top: 70px;
+	}
+	.lg-sbox-container{
+		width: 550px;
+	}
+	.search-box-parent{
+		grid-template-columns: 87% 3% 10%;
+	  grid-template-rows: repeat(3, 52px);
+		height: 52px;
+	}
+}
+@media only screen and (max-width: 620px){
+	nav ul{
+		padding: 20px 30px 0px 0px;
+	}
+	
+	.logo-container{
+		margin-top: 40px;
+	}
+	.lg-sbox-container{
+		width: 500px;
+	}
+	.clear-btn-container{
+		font-size: 14px;
+	}
+	.query-box{
+		text-overflow: ellipsis;
+		display: -webkit-box;
+		-webkit-line-clamp: 1;
+		-webkit-box-orient: vertical;
+	}
+	.search-btn-container button{
+		padding: 14px;
+	}
+}
+@media only screen and (max-width: 526px){
+	.lg-sbox-container{
+		width: 450px;
+	}
+	.logo-container{
+		padding: 65px 0px 35px 0px !important;
+	}
+	.logo-container img{
+		max-width: 220px;
+	}
+	.search-box-parent{
+		grid-template-columns: 86% 3% 11%;
+	  grid-template-rows: repeat(3, 50px);
+		height: 50px;
+	}
+	.query-box{
+		font-size: 17px;
+	}
+	.search-suggetion-container{
+		padding: 6px 0px;
+	}
+	.search-suggetion-container ul a li{
+		font-size: 17px;
+		padding: 6px 17px;
+	}
+}
+@media only screen and (max-width: 475px){
+	.lg-sbox-container{
+		width: 400px;
+	}
+	.logo-container{
+		padding: 65px 0px 35px 0px !important;
+	}
+	.search-box-parent{
+		grid-template-columns: 85% 3% 12%;
+	}
+	.clear-btn-container{
+		font-size: 13px;
+	}
+}
+@media only screen and (max-width: 420px){
+	nav ul{
+		padding: 15px 20px 0px 0px;
+	}
+	.lg-sbox-container{
+		width: 100%;
+		padding: 0px 10px;
+	}
+	.search-btn-container button{
+		padding: 12px;
+	}
+}
+@media only screen and (max-width: 392px){
+	.logo-container img{
+		max-width: 200px;
+	}
+	.search-box-parent{
+		grid-template-columns: 83% 2% 15%;
+	}
+	.search-btn-container button{
+		padding: 13px;
+	}
+}
+@media only screen and (max-width: 358px){
+	.search-btn-container button{
+		padding: 13px;
+	}
+	#clear-icon{
+		display: none;
+	}
+	.search-box-parent{
+		grid-template-columns: 85.5% 0% 14.5%;
+	}
+}
+@media only screen and (max-width: 340px){
+	.search-btn-container button{
+		padding: 12px;
+	}
+}
+@media only screen and (max-width: 300px){
+	.search-btn-container button{
+		padding: 10px;
+	}
+}

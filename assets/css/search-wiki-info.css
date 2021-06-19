@@ -1,0 +1,145 @@
+.wiki_info_image_parent{
+	position: relative;
+	width: 100%;
+	margin-bottom: 20px;
+}
+.wiki_info_image{
+	width: 100%;
+/* 	column-count: 4; */
+	background: yellow;
+	overflow: hidden;
+	max-height: 130px;
+/* 	column-gap: 0; */
+	display: flex;
+	flex-shrink: 0;
+	overflow-x: auto;
+	-ms-overflow-style: none;  /* IE and Edge */
+  	scrollbar-width: none;
+}
+.wiki_info_image::-webkit-scrollbar {
+      display: none;
+}
+.wiki_info_image_view_more_btn{
+	position: absolute;
+	bottom: 0%;
+	left: 50%;
+	transform: translateX(-50%);
+	margin: 0;
+	padding: 5px 10px;
+	border: none;
+	background: #36acb8;
+	color: #fff;
+	font-weight: 700;
+	border-radius: 20%;
+	cursor: pointer;
+/* 	transform: translate(2%,2%) */
+}
+.wiki_info_image_view_more_btn:active{
+	background: #009688;
+}
+.wiki_info_image img{
+	height: 130px;
+}
+.wiki-info-head-sub{
+	width: 100%;
+	padding-bottom: 10px;
+	border-bottom: 1px solid lightgray;
+}
+.wiki-info-head-sub .wiki_info_title_01{
+	font-size: 24px;
+	padding-bottom: 7px;
+	
+}
+.wiki-info-head-sub .wiki_info_title_02{
+	font-size: 15px;
+	color: #70757a;
+}
+.wiki_info_description{
+	padding-top: 10px;
+	width: 100%;
+}
+.wiki_info_description_text{
+	color: #4d5156;
+	font-size: 15px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 5;
+	-webkit-box-orient: vertical;
+	margin-bottom: 10px;
+	width: 100%;
+}
+#expand-wiki_des{
+	color: #fff;
+	font-weight: bold;
+	user-select: none;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	cursor: pointer;
+	font-size: 13px;
+	padding: 5px 0px;
+	background: #555; 
+	width: 80px;
+	text-align: center;
+	border-radius: 5px;
+}
+.wiki_info_profiles_div{
+	width: 100%;
+	display: flex;
+/* 	background: pink; */
+	overflow-x: auto;
+	-ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;
+	margin-top: 15px;
+}
+.wiki_info_profiles_div::-webkit-scrollbar {
+      display: none;
+}
+.wiki_info_profiles_div a{
+	text-decoration: none;
+}
+.wiki_info_profiles_div a:hover{
+	text-decoration: underline;
+}
+.wiki_info_profile{
+/* 	background: red; */
+	
+}
+.wiki_info_profile:not(last-child){
+	margin-right: 8px;
+}
+.wiki_info_profile_img{
+	width: 100%;
+/* 	position: relative; */
+	display: flex;
+	justify-content: center;
+	padding-bottom: 4px;
+}
+.wiki_info_profile_img img{
+	width: 30px;
+	border-radius: 4px;
+/* 	position: absolute; */
+}
+.wiki_info_profile_name{
+	font-size: 13px;
+}
+.wiki_info_div_lists{
+	margin-top: 15px;
+	border-top: 1px solid lightgrey;
+}
+.wiki_info_div_lists ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	font-size: 14px;
+	color: #202124;
+}
+.wiki_info_div_lists ul li:not(first-child){
+	margin-top: 10px;
+}
+.wiki_info_div_lists ul li span{
+	font-weight: bold;
+	color: #333;
+	font-size: 14px;
+	margin-right: 2px;
+}

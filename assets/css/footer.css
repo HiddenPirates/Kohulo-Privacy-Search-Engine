@@ -1,0 +1,84 @@
+footer{
+	width: 100%;
+	margin-top: 10px;
+	background: rgb(54, 172, 184, 0.14);
+}
+.footer-social-link{
+	width: 100%;
+	text-align: center;
+/* 	background: lightblue; */
+	padding: 10px;
+}
+.footer-social-link a{
+	text-decoration: none;
+}
+.footer-social-link ul{
+  list-style: none;
+	display: inline-flex;
+	padding: 0;
+	margin: 0;
+	margin-top: 20px;
+}
+.footer-social-link ul a{
+	text-decoration: none;
+	color: blue;
+}
+.footer-social-link ul li{
+	padding: 10px;
+	box-shadow: 0px 1px 2px 0px blue;
+	width: 40px;
+	height: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 8px;
+	cursor: pointer;
+	font-size: 17px;
+}
+.footer-social-link ul li:not(first-child){
+	margin-left: 10px;
+}
+.footer-social-link ul li:hover{
+	box-shadow: 0px 1px 2px 0px #f0ff;
+	color: #f0ff;
+}
+/* --------- */
+
+.footer-links{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	padding: 10px 0px 15px 0px;
+}
+.footer-links ul{
+	display: inline-flex;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.footer-links ul a{
+	text-decoration: none;
+}
+.footer-links ul a li{
+	color: #555;
+	font-size: 15px;
+	cursor: pointer;
+}
+.footer-links ul a li:not(first-child){
+	margin-left: 13px;
+}
+.footer-copyright{
+	text-align: center;
+	padding: 15px;
+	background: rgb(54, 172, 184, 0.4);
+	font-size: 15px;
+	color: #252525;
+}
+.footer-copyright a{
+	text-decoration: none;
+	color: #333;
+}
+.footer-copyright a:nth-child(1){
+	font-weight: bold;
+}

@@ -1,0 +1,98 @@
+body{
+	background-color: #e8e8e8;
+}
+section{
+	box-shadow: 0px 1px 2px 1px #888;
+	padding: 10px 12px;
+	margin-top: 20px;
+	width: 100%;
+	background-color: #fff;
+}
+section .section-title{
+	margin: 0px 0px 10px 0px;
+	padding: 10px 0px;
+	width: 100%;
+	background: #212529;
+	color: #fff;
+	text-align: center;
+	font-size: 35px;
+	font-weight: bold;
+}
+section .visitor-monitor-card-container{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 10px;
+}
+.visitor-monitor-card-container .visitor-monitor-card{
+	background: pink;
+	padding: 20px;
+	border-radius: 8px;
+	user-select: none;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+}
+.visitor-monitor-card .total-visitor{
+	width: 100%;
+	text-align: center;
+	font-weight: bold;
+	font-size: 22px;
+	padding: 10px;
+}
+.visitor-monitor-card .visitor-card-footer{
+	width: 100%;
+	text-align: center;
+	font-size: 22px;
+	padding: 10px;
+	font-weight: lighter;
+}
+.visitor-monitor-card:nth-child(1){
+	box-shadow: 0px 1px 2px 1px lightgrey;
+	background-image: linear-gradient(to right, orange , yellow);
+}
+.visitor-monitor-card:nth-child(2){
+	box-shadow: 0px 1px 2px 1px lightgrey;
+	background-image: linear-gradient(to right, lightgreen , yellow);
+}
+.visitor-monitor-card:nth-child(3){
+	box-shadow: 0px 1px 2px 1px lightgrey;
+	background-image: linear-gradient(to right, lightblue , orange);
+}
+.visitor-monitor-card:nth-child(4){
+	box-shadow: 0px 1px 2px 1px lightgrey;
+	background-image: linear-gradient(to right, #194f2d, green);
+	color: #fff;
+}
+.visitor-monitor-card:nth-child(5){
+	box-shadow: 0px 1px 2px 1px lightgrey;
+	background-image: linear-gradient(to right, blue , purple);
+	color: #fff;
+}
+.visitor-monitor-card:nth-child(6){
+	box-shadow: 0px 1px 2px 1px lightgrey;
+	background-image: linear-gradient(to right, red , brown);
+	color: #fff;
+}
+/* 00000000000000000000000000000000000000000 */
+
+.change-logo-container{
+	display: grid;
+	grid-template-columns: repeat(2,1fr);
+	grid-gap: 10px;
+}
+.logo-changer-div{
+/* 	background: red; */
+} 
+.logo-img-div{
+	max-width: 200px;
+	overflow: hidden;
+	margin: 10px auto;
+}
+.logo-img-div img{
+	width: 100%;
+}
+.logo-change-btn-container{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	padding-top: 10px; 
+}

@@ -1,0 +1,34 @@
+@media only screen and (max-width: 618px) {
+	.news-card-parent{
+		box-shadow: 0 1px 2px 0 rgba(60,64,67,.3),0 2px 6px 2px rgba(60,64,67,.15) !important;
+		margin-bottom: 8px;
+	}
+	.news-thumb-div{
+		width: 92px;
+		height: 92px;
+		overflow: hidden;
+		background: red;
+	}
+	.news-details-div a{
+		overflow: hidden;
+		text-overflow: ellipsis;
+		display: -webkit-box;
+		-webkit-line-clamp: 2;
+		-webkit-box-orient: vertical;
+		text-decoration: none;
+		font-size: 16px;
+		color: blue;
+	}
+	.owner-siteand-pub-date{
+	/* 	padding: 3px !important; */
+		font-size: 13px !important;
+	}
+	.news-description{
+	/* 	display: none; */
+		overflow: hidden;
+		text-overflow: ellipsis;
+		display: -webkit-box;
+		-webkit-line-clamp: 1;
+		-webkit-box-orient: vertical;
+	}
+}
